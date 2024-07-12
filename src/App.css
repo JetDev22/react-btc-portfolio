@@ -1,0 +1,70 @@
+body{
+  background: rgb(11,13,51);
+  background: linear-gradient(180deg, rgba(11,13,51,1) 0%, rgba(151,190,237,1) 100%); 
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.btcLogo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 200px;
+}
+
+.btcPrice{
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+table{
+  font-size: 15px;
+  font-weight: bolder;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+.noPortfolio{
+  font-weight: bolder;
+}
+
+.currentPrice, .ROI, .portfolioInput, .disclaimer{
+  display: block;
+  padding: 5px;
+  background-color: rgba(245, 245, 245, 0.3);
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  max-width: 500px;
+}
+
+
+input, button{
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input{
+  background-color: rgba(245, 245, 245, 0.5);
+  color: black;
+  width: 200px;
+  height: 30px;
+  border-width: 0px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+button {
+  margin-bottom: 5px;
+  height: 30px;
+  width: 150px;
+  background-color: rgba(245, 245, 245, 0.5);
+  border-width: 0px;
+  border-radius: 30px;
+}
