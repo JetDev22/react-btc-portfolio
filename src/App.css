@@ -1,6 +1,7 @@
 body{
   background: rgb(11,13,51);
-  background: linear-gradient(180deg, rgba(11,13,51,1) 0%, rgba(151,190,237,1) 100%); 
+  background: linear-gradient(180deg, rgba(11,13,51,1) 0%, rgba(151,190,237,1) 100%);
+  background-attachment: fixed;
   padding-left: 10px;
   padding-right: 10px;
 }
