@@ -21,6 +21,9 @@ The Portfolio data is given by the user is collected via a form in the Portfolio
 
 The Update Portfolio button will send all entered data to the localStorage and the Reset Portfolio will delete all items that have been saved to localStorage.
 
+## Docker Image
+The docker image is based on node:22-alpine to be easily deployed to your Raspberry Pi or your favorite docker system. 
+You can find the image -> <a href="https://hub.docker.com/r/jetdev24/btc-portfolio"> HERE
+
 ## ToDo
 - Toggle Switch to switch between € and $
-- Create docker image for raspberry pi / x86
